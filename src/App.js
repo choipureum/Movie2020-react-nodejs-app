@@ -8,24 +8,29 @@ class App extends React.Component{
         super(props);
         console.log('hello')
     }
-
-
     state={
         count:0,
     };
     //state를 건드리는건 성능문제가 생길 수 있다
         // current map형식으로 
     add =() =>{
-        console.log('add');
         this.setState(current=>({
             count: current.count+1
         }));
     }
     minus=() =>{
-        console.log('minus');
         this.setState(current=>({
             count: current.count-1
         }));
+    }
+    componentDidMount(){
+        //render이후 실행되는 영역
+    }
+    componentDidUpdate(){
+        //render가 실행되면 실행
+    }
+    componentWillUnmount(){
+        //컴포넌트가 화면ㅇ에서 떠날때 실행
     }
     render(){
         return(
