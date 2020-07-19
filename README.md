@@ -5,6 +5,8 @@ React JS Fundamentals Courses 2020
 ## App Intro
 본 웹기반 어플리케이션은 넷플릭스와 같은 영화 웹사이트의 연습용 클론코딩입니다. 
 based React, Node.js
+
+## Publish
 배포: https://choipureum.github.io/Movie2020-react-nodejs-app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
