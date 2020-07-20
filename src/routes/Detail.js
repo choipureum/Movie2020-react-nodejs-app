@@ -8,6 +8,7 @@ class Detail extends React.Component{
         if(location.state==undefined){
             history.push("/");
         }
+        
     }
     render(){
         const{location} =this.props;
@@ -17,7 +18,7 @@ class Detail extends React.Component{
                 <img className="detail_img" src={location.state.poster} alt={location.state.title} title={location.state.title} />              
                 <h3 className="detail__title">{location.state.title}</h3>
                 <h5 className="detail__year">{location.state.year}</h5>
-                <h5 className="detail__rating"><img className='star' src="https://i.dlpng.com/static/png/1482279-start-stars-png-vector-338_338_preview.png"/>
+                <h5 className="detail__rating"><img className='star' src="https://i.dlpng.com/static/png/1482279-start-stars-png-vector-338_338_preview.png" alt=""/>
                 {location.state.rating}</h5>
                 <h5 className="detail__runtime">{location.state.runtime}min</h5>
                <h5 className="detail__language">{location.state.language}</h5>
