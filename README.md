@@ -9,6 +9,7 @@ based React, Node.js
 ## Publish
 배포: https://choipureum.github.io/Movie2020-react-nodejs-app
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
